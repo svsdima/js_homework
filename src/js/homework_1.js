@@ -26,29 +26,29 @@
 "use strict";
 
 /* 1) */
-// const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
 
 /* 2) */
-// const personalMovieDB = {
-//     count: typeof(numberOfFilms),
-//     movies: null,
-//     actors: null,
-//     genres: [],
-//     privat: false,
-// };
+const personalMovieDB = {
+    count: typeof(numberOfFilms),
+    movies: null,
+    actors: null,
+    genres: [],
+    privat: false,
+};
 
 /* 3) */
-// const answers = [];
+const answers = [];
 
-// answers[0] = prompt('Один из последних просмотренных фильмов?','Джеки Чан');
-// answers[1] = prompt('На сколько оцените его?','5');
-// answers[2] = prompt('Один из последних просмотренных фильмов?','Джеки Чан');
-// answers[3] = prompt('На сколько оцените его?','5');
+answers[0] = prompt('Один из последних просмотренных фильмов?','Джеки Чан');
+answers[1] = prompt('На сколько оцените его?','5');
+answers[2] = prompt('Один из последних просмотренных фильмов?','Джеки Чан');
+answers[3] = prompt('На сколько оцените его?','5');
 
-// personalMovieDB.movies [1] = [2];
-// personalMovieDB.movies [3] = [4];
+personalMovieDB.movies [1] = [2];
+personalMovieDB.movies [3] = [4];
 
-// console.log(personalMovieDB);
+console.log(personalMovieDB);
 
 /* Теперь повторяю за лекцией */
 /* + перед prompt добавил, чтобы ответ был числом */
